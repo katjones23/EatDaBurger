@@ -1,2 +1,2 @@
--- -- write insert queries to populate the burgers table with at least three entries.
--- Now insert the entries you defined in seeds.sql by running the file: source seeds.sql.
+INSERT INTO burgers (burger_name, devoured)
+VALUES ('Cheeseburger', false), ('Veggie burger', true), ('Bacon burger', false)
