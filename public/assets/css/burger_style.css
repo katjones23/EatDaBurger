@@ -14,3 +14,24 @@ body {
 .eaten {
     float: inline-end;
 }
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.create-form {
+    padding: 5px;
+    margin: 5px;
+}
+  
+  .form-group {
+    margin-bottom: 5px;
+}
+  
+  
