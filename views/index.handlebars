@@ -5,7 +5,6 @@
 <ul class="notEaten">
     {{#each burgers}}
     {{#unless devoured}}
-    {{!-- Add code to evaluate if burger is devoured --}}
     {{> burger-block devoured=true}}
     {{/unless}}
     {{/each}}
@@ -16,7 +15,6 @@
 <ul class="eaten">
     {{#each burgers}}
     {{#if devoured}}
-    {{!-- Add code to evaluate if burger is devoured --}}
     {{> burger-block devoured=false}}
     {{/if}}
     {{/each}}

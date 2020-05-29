@@ -6,28 +6,22 @@ const orm = {
 
     connection.query(queryString, [table], function (err, res) {
       if (err) throw err;
-
-      console.log(res);
     });
   },
 
-  insertOne: function (table, value) {
+  insertOne: function (table, column, value) {
     let queryString = "INSERT INTO ?? (??) VALUES (?)";
 
-    connection.query(queryString, [table, burger_name, value], function (err, result) {
+    connection.query(queryString, [table, column, value], function (err, result) {
       if (err) throw err;
-
-      console.log(result);
     });
   },
 
-  updateOne: function (table, value, id) {
+  updateOne: function (table, column, value, id) {
     let queryString = "UPDATE ?? SET ?? = ? WHERE id = ?";
 
-    connection.query(queryString, [table, devoured, value, id], function (err, result) {
+    connection.query(queryString, [table, column, value, id], function (err, result) {
       if (err) throw err;
-
-      console.log(result);
     }
     );
   }

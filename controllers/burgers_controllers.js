@@ -14,7 +14,7 @@ router.get("/", function(req, res) {
   });
   
   router.post("/api/burgers", function(req, res) {
-    burger.insertOne(req.body.burgerName, function(result) {
+    burger.insertOne(req.body.name, function(result) {
       res.json({ id: result.insertId });
     });
   });
@@ -22,7 +22,7 @@ router.get("/", function(req, res) {
   router.put("/api/burgers/:id", function(req, res) {
     let id = req.params.id;
   
-    burger.updateOne(value, id, function(result) {
+    burger.updateOne(true, id, function(result) {
       if (result.changedRows == 0) {
         return res.status(404).end();
       } else {
