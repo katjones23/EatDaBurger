@@ -1,0 +1,16 @@
+body {
+    background-color: goldenrod;
+}
+
+#burgerImg {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.notEaten {
+   float: inline-start;
+}
+
+.eaten {
+    float: inline-end;
+}
