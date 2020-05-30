@@ -2,17 +2,19 @@ body {
     background-color: goldenrod;
 }
 
-#burgerImg {
-    max-width: 300px;
-    margin: 0 auto;
+#burgerImg, .btn {
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.notEaten {
-   float: inline-start;
+h1, h3 {
+    text-align: center;
 }
 
-.eaten {
-    float: inline-end;
+.container {
+    margin-top: 5%;
 }
 
 li {
@@ -21,17 +23,16 @@ li {
     background: #faebd7;
 }
 
-.label {
-    font-weight: bold;
-}
-
-.create-form {
+.addBurger {
     padding: 5px;
     margin: 5px;
 }
-  
-  .form-group {
+
+.form-group {
     margin-bottom: 5px;
 }
-  
+
+.submitBtn {
+    margin-top: 3%;
+}
   

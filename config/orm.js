@@ -13,7 +13,7 @@ const orm = {
   insertOne: function (table, column, value, cb) {
     let queryString = "INSERT INTO ?? (??) VALUES (?)";
 
-    connection.query(queryString, [table, column, value], function (err, result) {
+    connection.query(queryString, [table, column, value], function (err, res) {
       if (err) throw err;
       cb(res)
     });
@@ -22,7 +22,7 @@ const orm = {
   updateOne: function (table, column, value, id, cb) {
     let queryString = "UPDATE ?? SET ?? = ? WHERE id = ?";
 
-    connection.query(queryString, [table, column, value, id], function (err, result) {
+    connection.query(queryString, [table, column, value, id], function (err, res) {
       if (err) throw err;
       cb(res)
     }

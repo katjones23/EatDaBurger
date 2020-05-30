@@ -1,7 +1,7 @@
 $(function() {
     $(".devourBtn").on("click", function(event) {
       let id = $(this).data("id");
-      let devoured = $(this).data("devoured");
+      let devoured = true;
   
       let devouredState = {
         devoured: devoured
@@ -13,13 +13,12 @@ $(function() {
         data: devouredState
       }).then(
         function() {
-          console.log("changed devoured to", devoured);
           location.reload();
         }
       );
     });
   
-    $(".create-form").on("submit", function(event) {
+    $(".addBurger").on("submit", function(event) {
       event.preventDefault();
   
       let newBurger = {
@@ -31,7 +30,6 @@ $(function() {
         data: newBurger
       }).then(
         function() {
-          console.log("created new burger");
           location.reload();
         }
       );
