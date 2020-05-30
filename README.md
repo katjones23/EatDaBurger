@@ -1,43 +1,57 @@
-# Node Express Handlebars
 
-### Overview
+# EatDaBurger
 
-In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
+<img src="https://img.shields.io/badge/license-MIT-green" alt="License Badge">
+<img src="https://img.shields.io/github/repo-size/katjones23/EatDaBurger" alt="Size Badge">
 
-### Important
 
-* **This assignment must be deployed.** Be sure to utilize the [MYSQL Heroku Deployment Guide](../../03-Supplemental/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
+## Description 
 
-### Before You Begin
+EatDaBurger is a web app for listing burgers to devour, and check off when they have been devoured.  Created with MySQL, Node, Express, Handlebars, and an ORM.
 
-* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
-* Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+## Table of Contents
 
-* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+1. [Installation](#installation)
+1. [Usage](#usage)
+1. [License](#license)
+1. [Contributing](#contributing)
+1. [Tests](#tests)
+1. [Credits](#credits)
+1. [Questions](#questions)
 
-* Your app will store every burger in a database, whether devoured or not.
 
-* [Check out this video of the app for a run-through of how it works](https://youtu.be/msvdn95x9OM).
+## Installation
 
-### Submission on BCS
+(heroku link)
 
-* **This assignment must be deployed.** * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
 
-- - -
+## Usage 
 
-### Hosting on Heroku
+Use the form to add new burgers.  Once they have been added to the list, click the devour button to move them to the devoured list.
 
-Now that we have a backend to our applications, we use Heroku for hosting. Please note that while **Heroku is free**, it will request credit card information if you have more than 5 applications at a time or are adding a database.
 
-Please see [Heroku’s Account Verification Information](https://devcenter.heroku.com/articles/account-verification) for more details.
+## License
 
-- - -
+Licensed under the MIT license.
 
-### Add To Your Portfolio
 
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
+## Contributing
 
-- - -
+Please submit a request to become a collaborator and submit pull requests.
 
-burger image: https://www.cleanpng.com/png-hamburger-cheeseburger-veggie-burger-cartoon-clip-110928/
+
+## Tests
+
+No testing in this version.
+
+
+## Credits
+
+* [CleanPNG]( https://www.cleanpng.com/png-hamburger-cheeseburger-veggie-burger-cartoon-clip-110928/)
+
+## Questions
+
+<img src="https://avatars0.githubusercontent.com/u/53064219?v=4" alt="Avatar Image" width="100" height="100">
+
+If you have any questions, please contact me at <a href="mailto:thedevkat@gmail.com">thedevkat@gmail.com</a>.
