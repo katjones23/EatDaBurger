@@ -23,7 +23,7 @@ EatDaBurger is a web app for listing burgers to devour, and check off when they 
 
 ## Installation
 
-(heroku link)
+https://kat-jones-eatdaburger.herokuapp.com/
 
 
 ## Usage 
